@@ -1,0 +1,28 @@
+# Secrets. Never committed.
+.env
+.env.*
+.pypirc
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tools
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# What the examples and the figure command write
+figures/
+examples/*.gif
+examples/*.mp4
+examples/*.html
+*.gif
+!docs/images/*.gif
